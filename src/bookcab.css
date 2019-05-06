@@ -1,0 +1,91 @@
+.bookcab-outer {
+	height: 100vh;
+	background-color: #f5f5f5;
+}
+
+.bookcab-left {
+	vertical-align: top;
+	display: inline-block;
+	height: 100%;
+	width: 40%;
+}
+
+.bookcab-header {
+	margin-top: 10px;
+	position: fixed;
+	width: 40%;
+}
+
+.bookcab-header-right {
+	cursor: pointer;
+	display: inline-block;
+	float: right;
+	margin-right: 10px;
+}
+
+.bookcab-header img {
+	display: inline-block;
+	height: 30px;
+	margin-left: 40%;
+}
+
+.bookcab-box {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.box-header {
+	margin: 0px 10px;
+	padding: 10px 0px;
+}
+
+.box-header-item {
+	width: 33.33%;
+	display: inline-block;
+	text-align: center;
+}
+
+.box-header-item span {
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 30px;
+}
+
+.cabtype-active {
+	background-color: yellow;	
+}
+
+.bookcab-right {
+	vertical-align: top;
+	display: inline-block;
+	height: 100%;
+	width: 60%;
+	background-image: url(https://olawebcdn.com/images/v1/bg_city.jpg);
+	background-size: cover;
+}
+
+.show-yes {
+	display: block;
+}
+
+.show-no {
+	display: none;
+}
+
+.margin-side {
+	margin: 10px 5px 0 5px;
+}
+
+.ola-service-msg {
+	margin-top: 70px;
+}
+
+.ola-service-msg svg {
+	background-color: #f5f5f5;
+	width: 50px;
+	height: 50px;
+}
+
+.width-50 {
+	width: 50%;
+}

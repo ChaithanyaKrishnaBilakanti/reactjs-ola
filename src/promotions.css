@@ -1,0 +1,86 @@
+.promotions-outer {
+	top: -48px;
+	position: relative;
+	margin-left: 60px;
+	margin-right: 60px;
+	background-color: #ffffff;
+	height: 96px;	
+}
+
+.promotions-inner {
+	height: 100%;
+}
+
+.button-change {
+	background-color: #ffffff;
+	width: 20px;
+}
+
+.promotion {
+	width: 100%;
+	padding-top: 6px;
+}
+
+.promotion:hover h3 {
+	color:green;
+}
+
+.promotion-image-holder {
+	vertical-align: top;
+	display: inline-block;
+	height: 100%;
+	margin-right: 20px;
+}
+
+.promotion-image-holder img {
+	height: 72px;
+}
+
+.promotion-content-holder {
+	vertical-align: top;
+	display: inline-block;
+	height: 100%;
+}
+
+.promotion-content-holder h3 {
+	color: skyblue;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.promotion-content-holder p {
+	margin-top: 5px;
+}
+
+.promotions-left {
+	display: inline-block;
+	width: 5%;
+	height: 100%;
+
+	background-color: white;
+}
+
+.promotions-right {
+	display: inline-block;
+	width: 5%;
+	height: 100%;
+
+	background-color: white;
+}
+
+.promotions-content {
+	display: inline-block;
+	width: 90%;
+	height: 100%;
+
+	background-color: pink;
+}
+
+@media only screen and (max-width: 768px) {
+	.promotions-outer {
+
+	margin-left: 0px;
+	margin-right: 0px;
+
+	}	
+}

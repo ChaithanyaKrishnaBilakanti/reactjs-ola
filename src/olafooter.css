@@ -1,0 +1,160 @@
+.ola-footer-outer {
+	width: 100%;
+	background-color: #393939;
+	color: #fff;
+	padding: 20px 0;
+}
+
+.ola-footer-inner {
+	margin: 0px 60px;
+}
+
+.ola-footer-section {
+	margin-top: 30px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.ola-footer-section-last {
+	margin-top: 30px;
+	padding-bottom: 20px;
+}
+
+.ola-footer-title {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 10px;
+
+	font-style: bold;
+}
+
+.ola-footer-title img {
+	width: 100px;
+}
+
+.footer-sub-section {
+	vertical-align: top;
+	width: 70%;
+	display: inline-block;
+}
+
+.section2-item {
+	vertical-align: top;
+	display: inline-block;
+	width: 33.33%;
+}
+
+.section2-item p {
+	margin: 5px 0;
+	font-size: 12px;
+}
+
+.section2-foot {
+	margin: 10px 0;
+}
+
+.section3-image-holder {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.section3-social-links {
+	display: inline-block;
+}
+
+.section3-country {
+	padding: 2px 5px 0px 5px;
+	border: 1px solid white;
+	border-width: 2px;
+	border-radius: 3px;
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+}
+
+.section3-country img {
+	height: 20px;
+	margin-right: 10px;
+}
+
+.section3-country span {
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.discover-ola-middle {
+	display: inline-block;
+}
+
+.discover-ola-item {
+	display: inline-block;
+	margin-right: 50px;
+}
+
+.discover-ola-end {
+	float: right;
+	display: inline-block;
+}
+
+.discover-ola-item2 {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+	.ola-footer-title {
+		width: 100%;
+		text-align: center;
+	}
+
+	.footer-sub-section {
+		width: 100%;
+	}
+
+	.section2-item {
+		width: 100%;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+	.section3-social-links {
+		width: 100%;
+		margin: 0px;
+		text-align: center;
+	}
+
+	.section3-image-holder {
+		margin-right: 10px;
+	}
+
+	.section3-country {
+		width: 100%;
+		float: none;
+		text-align: center;
+		justify-content: center;
+		margin: 0px;
+	}
+
+	.discover-ola-middle {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.discover-ola-item {
+		display: block;
+		margin: 0px;
+	}
+
+	.discover-ola-end {
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+
+	.discover-ola-item2 {
+		display: block;
+		margin: 0px;
+	}
+}

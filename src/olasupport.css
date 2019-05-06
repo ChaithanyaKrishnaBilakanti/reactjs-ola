@@ -1,0 +1,52 @@
+.ola-support-outer {
+	width: 100%;
+	background: #FFFFFF;
+	padding: 30px 0;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25)
+}
+
+.ola-support-inner {
+	margin: 0px 60px;
+}
+
+.ola-support-item {
+	display: inline-block;
+	width: 33%;
+}
+
+.ola-support-imageholder {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ola-support-imageholder img {
+	width: 40px;
+	height: 40px;
+}
+
+.ola-support-content {
+	margin-left: 10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ola-support-content h3 {
+	margin-top: 0px;
+	padding: 0px;
+	margin-bottom: 5px;
+}
+
+.ola-support-content p {
+	margin: 3px 0 0 0;
+	opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px) {
+	.ola-support-inner {
+		margin: 0px;
+	}
+
+	.ola-support-item {
+		width: 100%;
+	}
+}

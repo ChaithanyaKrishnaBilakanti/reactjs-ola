@@ -1,0 +1,40 @@
+.cab-types-outer {
+	width: 95%;
+	padding: 10px 0 0 70px;
+
+	
+}
+
+.cab-types-inner {
+}
+
+.cards-container {
+	padding-top: 20px;
+	background-color: white;
+	color: black;
+	align-content: start;
+	display: flex;
+
+}
+
+.card-holder {
+	display: inline-block;
+	width: 30%;
+	margin-right: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+	.cab-types-outer {
+		width: 100%;
+		padding: 10px 0px;
+	}
+
+	.card-holder {
+		width: 100%;
+		margin-right: 0%;
+	}
+
+	.cards-container {
+		display: block;
+	}
+}
